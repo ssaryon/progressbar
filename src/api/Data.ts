@@ -6,5 +6,4 @@ export const Data = {
   siblingElement: '.cart-mock-img',
   style: '.shipping-progressbar {display: flex;flex-direction: column;}',
   spendingGoal: '50',
-  isLoggedIn: 'true',
 };
