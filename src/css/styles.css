@@ -1,0 +1,56 @@
+/* Import all base styles. */
+@import url('./all/all.css');
+
+body {
+  background-color: #b89393;
+}
+
+aside {
+  width: 375px;
+  height: 553px;
+  max-height: 700px;
+  background-color: #fff;
+}
+
+.shipping-progressbar {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 16px;
+  margin: 16px 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.progressbar-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  margin-top: 5px;
+}
+
+.progressbar {
+  width: calc(100% - 30px);
+  height: 10px;
+  margin-right: 5px;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+}
+
+.progress-result {
+  width: 0%;
+  height: 100%;
+  background-color: #027d48;
+  border-radius: 10px;
+  transition: width 0.9s ease-in;
+}
+
+.free-shipping-goal {
+  font-weight: bold;
+  text-align: center;
+}
+
+.shipping-message-wrapper span {
+  font-weight: bold;
+}
